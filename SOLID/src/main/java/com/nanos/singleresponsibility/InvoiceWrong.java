@@ -14,7 +14,7 @@ public class InvoiceWrong {
     }
 
     public int calculateTotal(){
-        int price = marker.price * quantity;
+        int price = marker.getPrice() * quantity;
         return price;
     }
 
